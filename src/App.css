@@ -70,7 +70,6 @@
   margin-bottom: 5px;
   font-family: sans-serif;
   font-size: 15px;
-
 }
 .Article_readMore{
   cursor: pointer;
@@ -95,4 +94,23 @@
   font-size: 10px;
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 200px) and (max-width: 1024px) {
+  .App {
+    width: 100%;
+   }
+  .Article_Input_Search{
+    width: 69%;
+    margin-bottom: 10px;
+  }
+  .Input_Container{
+    width: 100%;
+  }
+  .Article_Input{
+    width: 70%;
+  }
+  .Article_Search_Btn {
+    width: 25%;
+  }
 }
